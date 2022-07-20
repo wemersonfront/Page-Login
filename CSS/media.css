@@ -1,0 +1,153 @@
+@media screen and (max-width: 620px) {
+    
+    *{margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+    body{
+        width: 375px;
+        height: 812px;
+        background-color: white;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .logo #logoDesktop{
+        visibility: hidden;
+    }
+
+
+    .logo #logoMobile{
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+    }
+    
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: -180px;
+        margin-top: -40px;
+    }
+    
+    .container-form{
+        display: flex;
+        flex-direction: column;
+        width: 327px;
+        height: 517px;
+    }
+    
+    .container-form h2{
+        color: #344054;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    
+    .container-form #text-reader{
+        font-size: 16px;
+        font-weight: 400;
+        color: #667085;
+        margin-bottom: 56px;
+    }
+    
+    label{
+        font-size: 18px;
+        color: #344054;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+    
+    .inputs{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #email, #password{
+        width: 327px;
+        height: 44px;
+        border: 1px solid #D0D5DD;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    
+    #email, #password::placeholder{
+        color: #667085;
+        font-size: 14px;
+        padding-left: 14px;
+    }
+    
+    
+    
+    .remember-class{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 32px;
+    }
+    
+    .remember-class p a{
+        font-size: 16px;
+        color: #5429FF;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    
+    #signin{
+        width: 327px;
+        height: 44px;
+        border-radius: 8px;
+        background-color: #5429FF;
+        font-size: 16px;
+        color: white;
+        font-weight: 500px;
+        border: none;
+        margin-bottom: 16px;
+        cursor: pointer;
+    }
+    
+    #signinGoogle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 327px;
+        height: 44px;
+        border-radius: 8px;
+        background-color: transparent;
+        font-size: 16px;
+        color: #344054;
+        font-weight: 500px;
+        border: 1px solid #D0D5DD;
+        margin-bottom: 16px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    #createAccount{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #createAccount a{
+        font-size: 16px;
+        color: #5429FF;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    
+    article{
+       visibility: hidden;
+    }
+
+
+
+
+
+
+
+
+
+}
